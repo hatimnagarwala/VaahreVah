@@ -1,0 +1,262 @@
+﻿.PostRecipePage p {
+    margin-left: 120px;
+}
+
+.MainAskvahchef {
+    width: 500px;
+    height: 100%;
+    float: left;
+}
+
+    .MainAskvahchef .FliterTopHeadDiv {
+        width: 450px;
+        font-size: 46px;
+        color: #fff;
+        font-weight: bold;
+        margin: 35px 0px 20px 20px;
+        float: left;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    .MainAskvahchef .FilterPostInnerDiv {
+        width: 450px;
+        height: auto;
+        font-size: 18px;
+        color: #fff;
+        font-weight: lighter;
+        margin: 0px 0px 12px 20px;
+        float: left;
+    }
+
+    .MainAskvahchef .FilterArea {
+        width: 430px;
+        height: 30px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .FilterAreaTextBox {
+        width: 405px;
+        height: 100px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientBanner {
+        width: 450px;
+        height: auto;
+        margin: 0px 0px 0px 20px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientInnerText1 {
+        width: 230px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientInnerText2 {
+        width: 88px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientInnerText3 {
+        width: 50px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientAreaBanner {
+        width: 450px;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientArea1 {
+        width: 220px;
+        height: 32px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 5px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientAreaTwo {
+        width: 75px;
+        height: 32px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 5px 0px 0px;
+        float: left;
+    }
+
+    .MainAskvahchef .IngredientImageBanner {
+        width: 32px;
+        height: 32px;
+        background: #4B4B49;
+        margin: 5px 0px 0px 0px;
+        float: left;
+    }
+
+
+
+    .MainAskvahchef .BottBoxCancelDiv {
+        width: 121px;
+        height: 47px;
+        float: left;
+        background: #E4451E;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+        line-height: 42px;
+        font-weight: bolder;
+        color: #FFF;
+        text-align: center;
+        margin: 5px 0px 0px 20px;
+        text-transform: uppercase;
+    }
+
+        .MainAskvahchef .BottBoxCancelDiv:active {
+            width: 121px;
+            height: 47px;
+            float: left;
+            background:#F5876C;
+            margin: 0px 0px 0px 0px;
+            font-size: 16px;
+            line-height: 42px;
+            font-weight: bolder;
+            color: #080000;
+            text-align: center;
+            margin: 5px 0px 0px 20px;
+            text-transform: uppercase;
+        }
+
+    .MainAskvahchef .BottBoxDiv {
+        width: 121px;
+        height: 47px;
+        float: left;
+        background: #51853D;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+        line-height: 42px;
+        font-weight: bolder;
+        color: #FFF;
+        text-align: center;
+        margin: 5px 0px 0px 20px;
+        text-transform: uppercase;
+    }
+
+        .MainAskvahchef .BottBoxDiv:active {
+            width: 121px;
+            height: 47px;
+            float: left;
+            background: #BFFCA3;
+            margin: 0px 0px 0px 0px;
+            font-size: 16px;
+            line-height: 42px;
+            font-weight: bolder;
+            color: #080000;
+            text-align: center;
+            margin: 5px 0px 0px 20px;
+            text-transform: uppercase;
+        }
+
+
+
+    /*
+Select control.
+*/
+    .MainAskvahchef .select1 {
+        min-height: 20px;
+        width: 40px;
+        border-width: 2px;
+        border-style: solid;
+        margin: 0px 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3636; /* 20px when font-size is 11pt */
+        background-color: #4B4B49;
+        color: #fff;
+        float: left;
+        margin: 4px 5px 10px 0px;
+    }
+
+        .MainAskvahchef .select1:hover {
+            min-height: 20px;
+            width: 40px;
+            border-width: 2px;
+            border-style: solid;
+            margin: 0px 0;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.3636; /* 20px when font-size is 11pt */
+            background-color: #4B4B49;
+            color: #fff;
+            float: left;
+            margin: 4px 5px 10px 0px;
+        }
+
+        .MainAskvahchef .select1 select::-ms-value {
+            padding: 4px 8px;
+            margin: 0;
+        }
+
+        .MainAskvahchef .select1 select::-ms-expand {
+            border: 0;
+            padding-left: 6px;
+            padding-right: 6px;
+            background-color: transparent;
+        }
+
+        .MainAskvahchef .select1 option {
+            font-size: 14px;
+            color: #fff;
+        }
+
+            /*
+    Select option high contrast colors.
+    */
+            .MainAskvahchef .select1 option:checked, select:focus::-ms-value {
+                color: HighlightText;
+                background-color: #4B4B49;
+            }
+
+        .MainAskvahchef .select1 select:active:not(:disabled)::-ms-value, select:active:not(:disabled)::-ms-expand,
+        option:hover:active, option:checked:hover:active {
+            color: ButtonFace;
+            background-color: #4B4B49;
+        }
+
+        .MainAskvahchef .select1 option:checked:disabled, option:checked:disabled:active,
+        optgroup:disabled option:checked, optgroup:disabled option:checked:active,
+        select:disabled option:checked, select:disabled option:checked:active,
+        select:disabled:focus::-ms-value {
+            color: ButtonFace;
+            background-color: #4B4B49;
+        }

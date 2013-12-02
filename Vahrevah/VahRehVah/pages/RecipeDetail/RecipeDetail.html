@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>groupedItemsPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/RecipeDetail/RecipeDetail.css" rel="stylesheet" />
+    <script src="/js/RecipeDetaildata.js"></script>
+    <script src="../../js/RelatedRecipesData.js"></script>
+    <script src="../../js/ReviewData.js"></script>
+    <script src="/pages/RecipeDetail/RecipeDetail.js"></script>
+</head>
+<body>
+    <!-- These templates are used to display each item in the ListView declared below. -->
+    <div class="headertemplate" data-win-control="WinJS.Binding.Template">
+        <button class="group-header win-type-x-large win-type-interactive" data-win-bind="groupKey: key"
+            onclick="Application.navigator.pageControl.navigateToGroup(event.srcElement.groupKey)" role="link" tabindex="-1" type="button">
+            <span class="group-title win-type-ellipsis" data-win-bind="textContent: title"></span>
+            <span class="group-chevron"></span>
+        </button>
+    </div>
+    <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
+        <div class="item">
+            <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
+            <div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textContent: title"></h4>
+                <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: subtitle"></h6>
+            </div>
+        </div>
+    </div>
+
+     <div class="itemtemplate1" data-win-control="WinJS.Binding.Template">
+        <div class="RelatedRecipes">
+            <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
+			<div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textContent: title"></h4>
+                <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: subtitle"></h6>
+				
+            </div>
+        </div>
+    </div>
+
+
+     <div class="itemtemplate2" data-win-control="WinJS.Binding.Template">
+        <div class="Reviews">
+			<div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textContent: title"></h4>
+                <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: subtitle"></h6>
+				<div data-win-control="WinJS.UI.Rating" style="margin: 0px 0px 0px 5px; float: left; width: 116px; height: 28px;"></div>
+                 <h6 class="item-Description win-type-ellipsis" data-win-bind="textContent: Description"></h6>
+
+			</div>
+        </div>
+    </div>
+
+
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment RecipeDetail">
+        <header aria-label="Header content" role="banner" style="position: absolute; z-index:55;">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">
+                    <img src="../../images/AppLogo2.png" /></span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="MaingroupDiv">
+                <div class="ImageBanner">
+                    <div class="BlackBanner">
+                        <div class="BlackInnerBanner">
+                            <h4 class="BlackTopTex">Lorem Ipsum is simply dummy  printing</h4>
+                            <div class="BlackDetailInner">
+                                <div class="BlackDetailBox">
+                                    <h4 class="BlackStartext">480 reviews</h4>
+                                    <div data-win-control="WinJS.UI.Rating" style="margin: 0px 0px 0px 5px; float: left; width: 116px; height: 28px;"></div>
+                                </div>
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Author</h4>
+                                    <h4 class="Blacksubtitle">Sreya85</h4>
+                                </div>
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Published</h4>
+                                    <h4 class="Blacksubtitle">July 29,2013</h4>
+                                </div>
+
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Recipe type</h4>
+                                    <h4 class="Blacksubtitle">Rices</h4>
+                                </div>
+
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Preparation time</h4>
+                                    <h4 class="Blacksubtitle">7mit</h4>
+                                </div>
+
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Yield</h4>
+                                    <h4 class="Blacksubtitle">4 services</h4>
+                                </div>
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Cooking time</h4>
+                                    <h4 class="Blacksubtitle">25 mit</h4>
+                                </div>
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Ingredient</h4>
+                                    <h4 class="Blacksubtitle">Lamb</h4>
+                                </div>
+                                <div class="BlackDetailBox">
+                                    <h4 class="Blacktitle">Standing time</h4>
+                                    <h4 class="Blacksubtitle">8-8 mit</h4>
+                                </div>
+
+                            </div>
+                            <div class="TabBanner">
+                                <div class="TabIconDiv"></div>
+                                <div class="TabIconDiv2"></div>
+                                <div class="TabIconDiv3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="PlayButt">
+                    </div>
+
+
+                </div>
+                <div class="groupeditemslist win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+                <div class="groupeditemslist1 div1 win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+			</div>
+        </section>
+    </div>
+      <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'top'}" style="background: #000000; height: 105px;">
+        <button id="TopAppDiv" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv1" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv2" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv3" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv4" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv5" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv6" data-win-control="WinJS.UI.AppBarCommand"></button>
+        <button id="TopAppDiv7" data-win-control="WinJS.UI.AppBarCommand"></button>
+    </div>
+    <div id="appbar2" data-win-control="WinJS.UI.AppBar" style="background: #000000;">
+        <button id="BottAppDiv1" data-win-control="WinJS.UI.AppBarCommand"></button>
+    </div>
+</body>
+</html>

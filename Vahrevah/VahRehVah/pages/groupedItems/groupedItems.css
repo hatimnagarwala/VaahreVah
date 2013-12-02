@@ -1,0 +1,1737 @@
+﻿.groupeditemspage section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+
+
+.groupeditemspage .MainDiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -ms-grid-rows: 100px 1fr;
+    -ms-grid-row-span: 2;
+    -ms-grid-row: 1;
+    display: -ms-grid;
+    -ms-grid-columns: auto 75px 750px 75px auto 75px auto 75px auto 75px 1fr;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+    .groupeditemspage .MainDiv .ChefImage {
+        width: 380px;
+        height: 623px;
+        -ms-grid-row: 2;
+        -ms-grid-row-align: end;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist {
+        height: 100%;
+        position: relative;
+        -ms-grid-column: 1;
+        -ms-grid-row: 2;
+        z-index: 0;
+        margin-left: 365px;
+        overflow: hidden;
+		width:100%;
+		vertical-align: top;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist1 {
+        height: 100%;
+        background-image: url(../../images/HubPage/FuturedVideosBg.jpg);
+        position: relative;
+        -ms-grid-column: 5;
+        -ms-grid-row: 2;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+/*cuisine list view style*/
+
+
+/* This selector is used to prevent ui-dark/light.css from overwriting changes
+       to .win-surface. */
+.groupeditemspage .MainDiv .groupeditemslist .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.groupeditemspage .MainDiv .groupeditemslist .win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+/* Use grid and top level layout for truncation */
+
+
+/*.groupeditemspage .MainDiv .groupeditemslist .item {
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr 90px;
+    display: -ms-grid;
+    height: 250px;
+    width: 250px;
+}
+
+
+    .groupeditemspage .MainDiv .groupeditemslist .item .item-image {
+        -ms-grid-row-span: 2;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay {
+        -ms-grid-row: 2;
+        -ms-grid-rows: 1fr 21px;
+        display: -ms-grid;
+        padding: 6px 15px 2px 15px;
+    }
+
+        .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay .item-title {
+            -ms-grid-row: 1;
+            overflow: hidden;
+            width: 220px;
+        }
+
+        .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay .item-subtitle {
+            -ms-grid-row: 2;
+            width: 220px;
+        }*/
+
+/*STYLE FOR SECOND LIST*/
+
+
+.groupeditemspage .groupeditemslist1 .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*  margin-top: 128px;*/
+}
+
+.groupeditemspage .MainDiv .groupeditemslist1.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 115px;
+    margin-right: 45px;
+}
+
+
+
+
+
+
+
+
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+    /*.groupeditemspage .MainDiv .groupeditemslist .item .item-overlay {
+        background: rgba(0,0,0,0.65);
+    }
+
+        .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay .item-title {
+            color: rgba(255,255,255,0.87);
+        }
+
+        .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay .item-subtitle {
+            color: rgba(255,255,255,0.6);
+        }
+
+    .groupeditemspage .MainDiv .groupeditemslist1 .item .item-overlay {
+        background: rgba(0,0,0,0.65);
+    }
+
+        .groupeditemspage .MainDiv .groupeditemslist1 .item .item-overlay .item-title {
+            color: rgba(255,255,255,0.87);
+        }
+
+        .groupeditemspage .MainDiv .groupeditemslist1 .item .item-overlay .item-subtitle {
+            color: rgba(255,255,255,0.6);
+        }*/
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) and (-ms-high-contrast), screen and (-ms-view-state: fullscreen-portrait) and (-ms-high-contrast), screen and (-ms-view-state: filled) and (-ms-high-contrast) {
+    .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay {
+        color: WindowText;
+    }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .groupeditemspage .MainDiv section[role=main] {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .win-vertical.win-viewport .win-surface {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .win-container {
+        margin-bottom: 15px;
+        margin-left: 13px;
+        margin-right: 35px;
+        padding: 7px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist.win-rtl .win-container {
+        margin-left: 21px;
+        margin-right: 26px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .item {
+        -ms-grid-columns: 60px 10px 1fr;
+        -ms-grid-rows: 1fr;
+        display: -ms-grid;
+        height: 60px;
+        width: 272px;
+    }
+
+        .groupeditemspage .MainDiv .groupeditemslist .item .item-image {
+            -ms-grid-column: 1;
+            -ms-grid-row-span: 1;
+            height: 60px;
+            width: 60px;
+        }
+
+        .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay {
+            -ms-grid-column: 3;
+            -ms-grid-row: 1;
+            -ms-grid-row-align: stretch;
+            background-color: black;
+            display: inline-block;
+            padding: 0;
+        }
+
+            .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay .item-title {
+                margin-top: 4px;
+                max-height: 40px;
+                width: 202px;
+            }
+
+            .groupeditemspage .MainDiv .groupeditemslist .item .item-overlay .item-subtitle {
+                opacity: 0.6;
+                width: 202px;
+            }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    /*.groupeditemspage .MainDiv .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-left: 25px;
+        margin-right: 95px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist.win-rtl .win-horizontal.win-viewport .win-surface {
+        margin-left: 95px;
+        margin-right: 25px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist1 .win-horizontal.win-viewport .win-surface {
+        margin-left: 25px;
+        margin-right: 95px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist1.win-rtl .win-horizontal.win-viewport .win-surface {
+        margin-left: 95px;
+        margin-right: 25px;
+    }*/
+}
+
+
+.groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos1 {
+    width: 225px;
+    height: 525px;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr 150px;
+    display: -ms-grid;
+}
+
+.groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos1 h2
+
+{
+	    font-size: 16px;
+        color: #fff;
+	}
+	
+	
+.groupeditemspage .MainDiv .groupeditemslist  .LatestRecipeVideos1 .item-overlay .item-subtitle h3
+{
+	
+	color:rgba(255, 255, 255, .5);
+	}
+
+
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos1 .title {
+        -ms-grid-row: 2;
+        font-size: 16px;
+        color: #fff;
+        font-weight: lighter;
+        margin: 0px 0px 0px 10px;
+    }
+
+
+
+.groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos1 .item-overlay {
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-align: stretch;
+    background: transparent;
+    display: inline-block;
+    padding: 0;
+    float: left;
+    background-color: black;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos1 .item-overlay .item-title {
+        margin-top: 4px;
+        width: 190px;
+        font-size: 18pt;
+        font-weight: bold;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos1 .item-overlay .item-subtitle {
+        opacity: 0.6;
+        width: 190px;
+        margin-left: 10px;
+        font-size: 10pt;
+        font-weight: 200;
+        word-wrap: break-word;
+		color:rgba(255, 255, 255, .8);
+    }
+
+
+
+.groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos2 {
+    width: 225px;
+    height: 525px;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 150px 1fr;
+    display: -ms-grid;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos2 .item-image {
+        -ms-grid-row: 2;
+        width: 225px;
+        Height: 375px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos2 .title {
+        -ms-grid-row: 2;
+        font-size: 16px;
+        color: #fff;
+        font-weight: lighter;
+        margin: 0px 0px 0px 10px;
+    }
+
+
+
+.groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos2 .item-overlay {
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-align: stretch;
+    background: transparent;
+    display: inline-block;
+    padding: 0;
+    float: left;
+    background-color: black;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos2 .item-overlay .item-title {
+        margin-top: 4px;
+        width: 190px;
+        font-size: 18pt;
+        font-weight: bold;
+        float: left;
+        margin-left: 10px;
+		color:white;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist .LatestRecipeVideos2 .item-overlay .item-subtitle {
+        opacity: 0.6;
+        width: 190px;
+        margin-left: 10px;
+        font-size: 10pt;
+        font-weight: 200;
+        word-wrap: break-word;
+		color:rgba(255, 255, 255, .8);
+    }
+
+
+
+.groupeditemspage .MainDiv .groupeditemslist button:hover:active, input[type=button]:hover:active {
+    min-height: 32px; /* content (20px) + padding + border */
+    min-width: 90px;
+    padding: 4px 8px;
+    border-width: 0px;
+    border-style: solid;
+    background-clip: padding-box;
+    font-size: 18pt;
+    font-weight: 600;
+    line-height: 1.3636; /* 20px when font-size is 11pt */
+}
+
+
+
+
+
+/*.groupeditemspage .MainDiv .groupeditemslist1 .win-listview .win-groupheader {
+    position: absolute;
+    top: 0;
+    padding: 10px 10px 10px 2px;
+    cursor: default;
+    overflow: hidden;
+    margin-left: 70px;
+    font-size: 20pt;
+    font-weight: 600;
+    border-width: 0px;
+    line-height: 1.2;
+}*/ 
+
+.groupeditemspage .MainDiv .groupeditemslist1 button, input[type=button] {
+    min-height: 32px; /* content (20px) + padding + border */
+    min-width: 32px;
+    padding: 4px 8px;
+    border-width: 0px;
+    border-style: solid;
+    background-clip: padding-box;
+    font-size: 18pt;
+    font-weight: 600;
+    line-height: 1.3636; /* 20px when font-size is 11pt */
+    color: black;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist1 button:hover:active, input[type=button]:hover:active {
+        min-height: 32px; /* content (20px) + padding + border */
+        min-width: 32px;
+        padding: 4px 8px;
+        border-width: 0px;
+        border-style: solid;
+        background-clip: padding-box;
+        font-size: 18pt;
+        font-weight: 600;
+        line-height: 1.3636; /* 20px when font-size is 11pt */
+    }
+
+
+
+
+
+.groupeditemspage .MainDiv .LatestRecipeVideos1 .item-image {
+    -ms-grid-row: 1;
+    width: 225px;
+    Height: 375px;
+}
+
+.groupeditemspage .MainDiv .LatestRecipeVideos1 .title {
+    -ms-grid-row: 2;
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 0px 0px 0px 10px;
+}
+
+
+
+
+
+
+.groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos {
+    -ms-grid-columns: 310px 1fr;
+    display: -ms-grid;
+    height: 125px;
+    width: 485px;
+    background-color: transparent;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .item-image {
+        -ms-grid-row: 1;
+        width: 310px;
+        Height: 123px;
+    }
+
+
+    .groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .PlayBtn {
+        -ms-grid-row: 1;
+        width: 32px;
+        Height: 32px;
+        float: right;
+        -ms-grid-row-align: end;
+        margin-bottom: 12px;
+        margin-left: 258px;
+    }
+
+
+
+    .groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .title {
+        -ms-grid-row: 2;
+        font-size: 16px;
+        color: #fff;
+        font-weight: lighter;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .item-overlay {
+        -ms-grid-column: 2;
+        -ms-grid-row: 1;
+        -ms-grid-row-align: stretch;
+        background: transparent;
+        display: inline-block;
+        padding: 0;
+        float: left;
+        background-color: transparent;
+    }
+
+        .groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .item-overlay .item-title {
+            margin-top: 4px;
+            width: 145px;
+            font-size: 16pt;
+            font-weight: bold;
+            float: left;
+            margin-left: 10px;
+            line-height: 1.2;
+            color: #232323;
+        }
+
+        .groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .item-overlay .item-subtitle {
+            opacity: 0.6;
+            width: 145px;
+            margin-left: 10px;
+            font-size: 10pt;
+            font-weight: 300;
+            word-wrap: break-word;
+            line-height: 1.2;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+.groupeditemspage .win-horizontal.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.groupeditemspage .win-vertical.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+
+.groupeditemspage .MainDiv .groupeditemslist1 .FeaturedVideos .PlayBtn button, input[type=button] {
+    min-height: 32px; /* content (20px) + padding + border */
+    min-width: 32px;
+    padding: 0px 0px;
+    border-width: 0px;
+    border-style: solid;
+    background-clip: padding-box;
+    font-size: 14pt;
+    font-weight: 600;
+    line-height: 1; /* 20px when font-size is 11pt */
+    color: WHITE;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, .70);
+    border-radius: 16px;
+    font-family: 'segoe ui symbol';
+}
+
+
+.groupeditemspage .MainDiv .groupeditemslist2 {
+    height: 100%;
+    position: relative;
+    -ms-grid-column: 7;
+    -ms-grid-row: 2;
+    z-index: 0;
+    overflow: hidden;
+    float: left;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist2 .Blogs {
+        -ms-grid-columns: 325px 1fr;
+        display: -ms-grid;
+        height: 115px;
+        width: 525px;
+        background-color: transparent;
+    }
+
+.groupeditemspage .groupeditemslist2 .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*  margin-top: 128px;*/
+}
+
+.groupeditemspage .MainDiv .groupeditemslist2.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.groupeditemspage .MainDiv .groupeditemslist2 .Blogs .item-image {
+    -ms-grid-row: 1;
+    width: 310px;
+    Height: 123px;
+    -ms-grid-column: 2;
+}
+
+.groupeditemspage .MainDiv .groupeditemslist2 .Blogs .title {
+    -ms-grid-row: 2;
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 0px 0px 0px 10px;
+}
+
+.groupeditemspage .MainDiv .groupeditemslist2 .Blogs .item-overlay {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-align: stretch;
+    background: transparent;
+    display: inline-block;
+    padding: 0;
+    float: left;
+    background-color: transparent;
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist2 .Blogs .item-overlay .item-title {
+        margin-top: 4px;
+        width: 300px;
+        font-size: 16pt;
+        font-weight: bold;
+        float: left;
+        margin-left: 10px;
+        line-height: 1.2;
+        color: white;
+    }
+
+    .groupeditemspage .MainDiv .groupeditemslist2 .Blogs .item-overlay .item-subtitle {
+        opacity: 0.6;
+        width: 300px;
+        margin-left: 10px;
+        font-size: 11pt;
+        font-weight: 500;
+        word-wrap: break-word;
+        line-height: 1.2;
+        color: rgba(255, 255, 255, 0.55);
+    }
+
+
+
+    .groupeditemspage .MainDiv .groupeditemslist2 .Blogs .item-overlay .item-Description {
+        opacity: 0.6;
+        width: 300px;
+        margin-left: 10px;
+        font-size: 10pt;
+        font-weight: 300;
+        word-wrap: break-word;
+        line-height: 1.2;
+        color: rgba(255, 255, 255, 0.53);
+        margin-top: 10px;
+    }
+
+
+.groupeditemspage .MainDiv .groupeditemslist3 {
+    height: 100%;
+    position: relative;
+    -ms-grid-column: 9;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    z-index: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+}
+
+    .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes {
+        -ms-grid-columns: 310px 1fr;
+        display: -ms-grid;
+        height: 125px;
+        width: 485px;
+        background-color: transparent;
+    }
+
+        .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes .item-image {
+            -ms-grid-row: 1;
+            width: 310px;
+            Height: 123px;
+        }
+
+
+        .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes .PlayBtn {
+            -ms-grid-row: 1;
+            width: 32px;
+            Height: 32px;
+            float: right;
+            -ms-grid-row-align: end;
+            margin-bottom: 12px;
+            margin-left: 258px;
+        }
+
+
+
+        .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes .title {
+            -ms-grid-row: 2;
+            font-size: 16px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0px 0px 0px 10px;
+        }
+
+        .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes .item-overlay {
+            -ms-grid-column: 2;
+            -ms-grid-row: 1;
+            -ms-grid-row-align: stretch;
+            background: transparent;
+            display: inline-block;
+            padding: 0;
+            float: left;
+            background-color: transparent;
+        }
+
+            .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes .item-overlay .item-title {
+                margin-top: 4px;
+                width: 145px;
+                font-size: 16pt;
+                font-weight: bold;
+                float: left;
+                margin-left: 10px;
+                line-height: 1.2;
+                color: white;
+            }
+
+            .groupeditemspage .MainDiv .groupeditemslist3 .FeaturedRecipes .item-overlay .item-subtitle {
+                opacity: 0.6;
+                width: 145px;
+                margin-left: 10px;
+                font-size: 10pt;
+                font-weight: 300;
+                word-wrap: break-word;
+                line-height: 1.2;
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+.groupeditemspage .groupeditemslist3 .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 90px;
+}
+
+.groupeditemspage .MainDiv .groupeditemslist3.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+.groupeditemspage .groupeditemslist .group-header, .group-header:hover, .group-header:hover:active {
+    background: transparent;
+    border: 0;
+    margin-bottom:-20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    min-height: 0;
+    padding: 0;
+	font-size: 24pt;
+    font-weight: 800;
+	   display: inline-block;
+        color: white;
+         line-height: 1.5;
+	
+}
+
+    .groupeditemspage .groupeditemslist .group-header .group-title {
+        display: inline-block;
+        color: white;
+        font-size: 24pt;
+        font-weight: 800;
+         line-height: 1.5;
+    }
+	
+	
+	
+
+    .groupeditemspage .groupeditemslist .group-header .group-chevron {
+        -ms-grid-column: 3;
+        display: inline-block;
+        visibility: hidden;
+    }
+
+        .groupeditemspage .groupeditemslist .group-header .group-chevron::before {
+            content: "\E26B";
+            font-family: 'Segoe UI Symbol';
+        }
+
+.groupeditemspage .groupeditemslist .headerRightBox {
+    width: 120px;
+    height: 25px;
+    background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+    margin: 10px 10px 0px 0px;
+    display: none;
+}
+
+    .groupeditemspage .groupeditemslist .headerRightBox:active {
+        width: 120px;
+        height: 25px;
+        background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+        float: right;
+        font-size: 18px;
+        color: #696767;
+        font-weight: bolder;
+        margin: 10px 10px 0px 0px;
+        display: none;
+    }
+
+
+
+
+.groupeditemspage .groupeditemslist1 .group-header, .group-header:hover, .group-header:hover:active {
+    background: transparent;
+    border: 0;
+    margin-bottom: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    min-height: 0;
+    padding: 0;
+}
+
+    .groupeditemspage .groupeditemslist1 .group-header .group-title {
+        display: inline-block;
+        color: black;
+        font-size: 24pt;
+        font-weight: 800;
+		height:80px;
+		margin-left: -10px;
+
+    }
+
+    .groupeditemspage .groupeditemslist1 .group-header .group-chevron {
+        -ms-grid-column: 3;
+        display: inline-block;
+        visibility: hidden;
+    }
+
+        .groupeditemspage .groupeditemslist1 .group-header .group-chevron::before {
+            content: "\E26B";
+            font-family: 'Segoe UI Symbol';
+        }
+
+.groupeditemspage .groupeditemslist1 .headerRightBox {
+    width: 120px;
+    height: 25px;
+    background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+    margin: 10px 10px 0px 0px;
+}
+
+    .groupeditemspage .groupeditemslist1 .headerRightBox:active {
+        width: 120px;
+        height: 25px;
+        background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+        float: right;
+        font-size: 18px;
+        color: #696767;
+        font-weight: bolder;
+        margin: 10px 10px 0px 0px;
+    }
+
+
+
+
+
+
+.groupeditemspage .groupeditemslist2 .group-header, .group-header:hover, .group-header:hover:active {
+    background: transparent;
+    border: 0;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    min-height: 0;
+    padding: 0;
+}
+
+    .groupeditemspage .groupeditemslist2 .group-header .group-title{
+        display: inline-block;
+        color: white;
+        font-size: 24pt;
+        font-weight: 800;
+        line-height: 26px;
+        float: left;
+    }
+
+    .groupeditemspage .groupeditemslist2 .group-header .group-chevron {
+        display: block;
+        background: #000000;
+        padding: 0px 10px 0px 10px;
+        line-height: 18px;
+        float: left;
+        height: 25px;
+        font-size: 24px;
+        margin: 2px 0px 0px 3px;
+        color:white;
+    }
+
+        .groupeditemspage .groupeditemslist2 .group-header .group-chevron::before {
+            content: "\E26B";
+            font-family: 'Segoe UI Symbol';
+        }
+
+.groupeditemspage .groupeditemslist2 .headerRightBox {
+    width: 120px;
+    height: 25px;
+    background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+    margin: 10px 10px 0px 0px;
+    display: none;
+}
+
+    .groupeditemspage .groupeditemslist2 .headerRightBox:active {
+        width: 120px;
+        height: 25px;
+        background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+        float: right;
+        font-size: 18px;
+        color: #696767;
+        font-weight: bolder;
+        margin: 10px 10px 0px 0px;
+        display: none;
+    }
+
+
+
+
+
+.groupeditemspage .groupeditemslist3 .group-header, .group-header:hover, .group-header:hover:active {
+    background: transparent;
+    border: 0;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    min-height: 0;
+    padding: 0;
+}
+
+    .groupeditemspage .groupeditemslist3 .group-header .group-title {
+        display: inline-block;
+        color: white;
+        font-size: 24pt;
+        font-weight: 800;
+        line-height: 1.5;
+    }
+
+    .groupeditemspage .groupeditemslist3 .group-header .group-chevron {
+        -ms-grid-column: 3;
+        display: inline-block;
+        visibility: hidden;
+    }
+
+        .groupeditemspage .groupeditemslist3 .group-header .group-chevron::before {
+            content: "\E26B";
+            font-family: 'Segoe UI Symbol';
+        }
+
+.groupeditemspage .groupeditemslist3 .headerRightBox {
+    width: 120px;
+    height: 25px;
+    background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+    margin: 10px 10px 0px 0px;
+    display: none;
+}
+
+    .groupeditemspage .groupeditemslist3 .headerRightBox:active {
+        width: 120px;
+        height: 25px;
+        background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+        float: right;
+        font-size: 18px;
+        color: #696767;
+        font-weight: bolder;
+        margin: 10px 10px 0px 0px;
+        display: none;
+    }
+
+
+/*  .groupeditemspage .win-listview .win-groupheader {
+    position: absolute;
+    top: 0;
+    padding: 0px 0px 0px 2px;
+    cursor: default;
+    overflow: hidden;
+    margin-left: 70px;
+    font-size: 20pt;
+    font-weight: 200;
+    line-height: 1.5; 
+}*/
+
+
+.groupeditemspage .groupeditemslist1 .win-groupheader {
+        padding: 0;
+		margin-top:20px;
+        margin-left:30px;
+		height:80px;
+    }
+
+
+
+.groupeditemspage .groupeditemslist .win-groupheader {
+        padding: 0;
+		margin-top:20px;
+        margin-left:30px;
+    }
+
+
+
+
+.groupeditemspage .groupeditemslist2 .win-groupheader {
+        padding: 0;
+		margin-top:20px;
+        margin-left:30px;
+    }
+
+
+.groupeditemspage .groupeditemslist3 .win-groupheader {
+        padding: 0;
+		margin-top:20px;
+        margin-left:30px;
+    }
+
+
+
+
+.groupeditemspage .MainDiv .Search {
+    Width: 740px;
+    Height: 100%;
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+    display: -ms-grid;
+    -ms-grid-rows: 50px 1fr;
+}
+
+
+    .groupeditemspage .MainDiv .Search .HeaderDiv {
+        display: -ms-grid;
+        -ms-grid-columns: 300px 1px 300px;
+        color: white;
+        font-size: 24pt;
+        font-weight: 800;
+        line-height: 1.5;
+    }
+
+
+        .groupeditemspage .MainDiv .Search .HeaderDiv .AdvanveSearch {
+            Width: 300px;
+            vertical-align: text-bottom;
+            -ms-grid-column: 1;
+			background:none;
+        }
+
+
+
+        .groupeditemspage .MainDiv .Search .HeaderDiv .AlphabetSearch {
+            Width: 300px;
+            -ms-grid-column: 3;
+            float: right;
+            margin-left: 18px;
+			background:none;
+        }
+
+
+
+        .groupeditemspage .MainDiv .Search .HeaderDiv .line {
+            Width: 1px;
+            vertical-align: text-bottom;
+            -ms-grid-column: 2;
+            background-color: rgba(255, 255, 255, .5);
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+
+
+
+        .groupeditemspage .MainDiv .Search .HeaderDiv .AlphabetSearch button, input[type=button], input[type=reset], input[type=submit] {
+            min-height: 32px; /* content (20px) + padding + border */
+            min-width: 90px;
+            padding: 4px 0px;
+            border-top: 0px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            background-clip: padding-box;
+            font-size: 24pt;
+            font-weight: 600;
+            Color: rgba(255, 255, 255, .35);
+            line-height: 1.3636; /* 20px when font-size is 11pt */
+			background:none;
+        }
+
+            .groupeditemspage .MainDiv .Search .HeaderDiv .AlphabetSearch button:focus, input[type=button], input[type=reset], input[type=submit] {
+                min-height: 32px; /* content (20px) + padding + border */
+                min-width: 90px;
+                padding: 4px 0px;
+                border-top: 5px;
+                border-bottom: 0;
+                border-left: 0;
+                border-right: 0;
+                border-style: solid;
+                background-clip: padding-box;
+                font-size: 24pt;
+                font-weight: 600;
+                Color: rgba(255, 255, 255, 1);
+                line-height: 1.3636; /* 20px when font-size is 11pt */
+				background:none;
+            }
+			
+			
+.groupeditemspage .MainDiv .Search .HeaderDiv .AdvanveSearch button, input[type=button], input[type=reset], input[type=submit] {
+            min-height: 32px; /* content (20px) + padding + border */
+            min-width: 90px;
+            padding: 4px 0px;
+            border-top: 0px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            background-clip: padding-box;
+            font-size: 24pt;
+            font-weight: 600;
+            Color: rgba(255, 255, 255, .35);
+            line-height: 1.3636; /* 20px when font-size is 11pt */
+			background:none;
+        }
+
+.groupeditemspage .MainDiv .Search .HeaderDiv .AdvanveSearch button:focus, input[type=button], input[type=reset], input[type=submit] {
+                min-height: 32px; /* content (20px) + padding + border */
+                min-width: 90px;
+                padding: 4px 0px;
+                border-top: 5px;
+                border-bottom: 0;
+                border-left: 0;
+                border-right: 0;
+                border-style: solid;
+                background-clip: padding-box;
+                font-size: 24pt;
+                font-weight: 600;
+                Color: rgba(255, 255, 255, 1);
+                line-height: 1.3636; /* 20px when font-size is 11pt */
+				background:none;
+            }			
+			
+			
+			
+
+    .groupeditemspage .MainDiv .Search .SearchMainDiv {
+        -ms-grid-row: 2;
+        display: -ms-grid;
+        -ms-grid-columns: 128px 252px 258px 100px 1fr;
+        position: relative;
+    }
+
+
+        .groupeditemspage .MainDiv .Search .SearchMainDiv .Popularity {
+            display: -ms-grid;
+            -ms-grid-rows: 95px 450px 1fr;
+        }
+
+
+        .groupeditemspage .MainDiv .Search .SearchMainDiv .searchSubHeading {
+            min-height: 32px; /* content (20px) + padding + border */
+            min-width: 90px;
+            padding: 4px 0px;
+            border-top: 0px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            background-clip: padding-box;
+            font-size: 18pt;
+            font-weight: 600;
+            Color: rgba(255, 255, 255, 1);
+            line-height: 1.3636;
+        }
+
+        .groupeditemspage .MainDiv .Search .SearchMainDiv .Slidrer {
+            width: 118px;
+            -ms-grid-row: 2;
+            background: url(../../images/HubPage/SliderValue.png) no-repeat right;
+        }
+
+
+
+        .groupeditemspage .MainDiv .Search .SearchMainDiv .Cuisine {
+            display: -ms-grid;
+            -ms-grid-rows: 95px 1fr;
+            -ms-grid-column: 2;
+            margin-left: 10px;
+        }
+
+
+        .groupeditemspage .MainDiv .Search .SearchMainDiv .CuisineHeading {
+            min-height: 32px; /* content (20px) + padding + border */
+            min-width: 90px;
+            padding: 4px 0px;
+            border-top: 0px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            background-clip: padding-box;
+            font-size: 18pt;
+            font-weight: 600;
+            Color: rgba(255, 255, 255, 1);
+            line-height: 1.3636;
+            width: 50px;
+        }
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .Cuisine .CuisineListView {
+            -ms-grid-row: 2;
+            width: 230px;
+            /*background-color:aqua;*/
+        }
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .Cuisine .CuisinelistviewItem {
+            font-size: 12pt;
+            border-bottom: 3px;
+            border-color: white;
+            width: 200px;
+            height: 35px;
+            background-color: rgba(255, 255, 255, .0);
+            display: -ms-grid;
+            -ms-grid-columns: 1fr 30px;
+			color:black;
+
+			
+        }
+
+
+		
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .Cuisine .CuisinelistviewItem .Ckbox {
+                width: 18px;
+                height: 18px;
+                background-image: url(../../images/HubPage/ckN.png);
+                float: right;
+                -ms-grid-column: 2;
+                -ms-grid-row-align: center;
+                margin-top: 5px;
+            }
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .Cuisine .CuisinelistviewItem .ItemName {
+                width: 150px;
+                margin-top: 0px;
+                padding-top: 7px;
+                padding-left: 5px;
+
+				
+            }
+
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .Cuisine .CuisinelistviewItem .CuisineList .win-listview {
+    overflow: hidden;
+    height: 500px;
+    -ms-user-select: element;
+}
+
+
+.groupeditemspage  .win-selectioncheckmark {
+    position: absolute;
+    margin: 0;
+    padding: 9px 14px;
+    right: 0;
+    top: 0;
+    font-family: Segoe UI Symbol;
+    font-size: 8pt;
+    z-index: 4;
+    color: white;
+    font-weight: 800;
+}
+
+.groupeditemspage  .win-listview.win-selectionstylefilled .win-selected .win-selectionbackground {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.groupeditemspage  .win-listview.win-selectionstylefilled .win-selected {
+    color: black;
+    font-weight: 800;
+	
+}
+
+.groupeditemspage   .win-selectioncheckmarkbackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    margin: 8px 11px;
+    border-style: none;
+    z-index: 3;
+    background-color: black;
+    border-radius: 25px;
+    padding: 5px 5px;
+    border: none;
+	 color: black;
+}
+
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalCuisine {
+    display: -ms-grid;
+    -ms-grid-rows: 95px 1fr;
+    -ms-grid-column: 3;
+    margin-left: 10px;
+}
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalHeading {
+    min-height: 32px; /* content (20px) + padding + border */
+    min-width: 90px;
+    padding: 4px 0px;
+    border-top: 0px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    background-clip: padding-box;
+    font-size: 18pt;
+    font-weight: 600;
+    Color: rgba(255, 255, 255, 1);
+    line-height: 1.3636;
+    width: 200px;
+}
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalCuisine .InternationalCuisineListView {
+    -ms-grid-row: 2;
+    width: 230px;
+    /*background-color:aqua;*/
+}
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalCuisinelistviewItem {
+    font-size: 12pt;
+    border-bottom: 3px;
+    border-color: white;
+    width: 200px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, .0);
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 30px;
+	color:black;
+}
+
+
+    .groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalCuisinelistviewItem .Ckbox {
+        width: 18px;
+        height: 18px;
+        background-image: url(../../images/HubPage/ckN.png);
+        float: right;
+        -ms-grid-column: 2;
+        -ms-grid-row-align: center;
+        margin-top: 5px;
+    }
+
+
+    .groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalCuisinelistviewItem .ItemName {
+        width: 150px;
+        margin-top: 0px;
+        padding-top: 7px;
+        padding-left: 5px;
+    }
+
+
+
+
+
+
+
+
+    .groupeditemspage .MainDiv .Search .SearchMainDiv .InternationalCuisinelistviewItem .ItemName {
+        width: 150px;
+        margin-top: 0px;
+        padding-top: 7px;
+        padding-left: 5px;
+    }
+
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .MoreDiv {
+    display: -ms-grid;
+    -ms-grid-rows: 45px 1fr 147px;
+    -ms-grid-column: 4;
+    margin-left: 10px;
+    height: 100%;
+}
+
+    .groupeditemspage .MainDiv .Search .SearchMainDiv .MoreDiv .More {
+        -ms-grid-row: 1;
+        height: 100%;
+    }
+
+.groupeditemspage .MainDiv .Search .SearchMainDiv .Searchbtn {
+    height: 147px;
+    width: 99px;
+    -ms-grid-column: 4;
+    position: absolute;
+    bottom: 0;
+    background: url(../../images/HubPage/SearchBtn.png) no-repeat;
+}
+
+
+    .groupeditemspage .MainDiv .Search .SearchMainDiv .Searchbtn:active {
+        height: 147px;
+        width: 99px;
+        -ms-grid-column: 4;
+        position: absolute;
+        bottom: 0;
+        background: url(../../images/HubPage/SearchBtn.png) no-repeat;
+        opacity: 0.5;
+    }
+
+
+
+
+
+
+/*Range input1 *********/
+.groupeditemspage .input1[type=range] {
+    width: 550px;
+    height: auto;
+    padding: 17px 0 32px 0px;
+}
+
+    .groupeditemspage .input1[type=range]::-ms-track {
+        padding: 0;
+        width: auto;
+        height: 25px;
+        border-style: none;
+        color: transparent; /* ticks hidden by default */
+    }
+
+    .groupeditemspage .input1[type=range]::-ms-thumb {
+        width: 89px;
+        height: 47px;
+        border-style: none;
+    }
+
+    .groupeditemspage .input1[type=range]::-ms-ticks-before, input[type=range]::-ms-ticks-after {
+        width: 100%;
+        height: 5px;
+        display: none;
+    }
+
+    .groupeditemspage .input1[type=range]:disabled::-ms-fill-lower {
+        margin-right: 5px;
+    }
+
+    .groupeditemspage .input1[type=range]:disabled::-ms-fill-upper {
+        margin-left: 6px;
+    }
+
+    .groupeditemspage .input1[type=range]:disabled:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm)::-ms-fill-lower {
+        margin-right: 0;
+        margin-left: 5px;
+    }
+
+.input1[type=range]:disabled:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm)::-ms-fill-upper {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+
+/*
+Vertical range control.
+*/
+.groupeditemspage .input1[type=range].win-vertical {
+    width: 65px;
+    height: 450px;
+    padding: 0 17px;
+    writing-mode: bt-lr;
+}
+
+    .groupeditemspage .input1[type=range].win-vertical:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
+        writing-mode: bt-rl;
+    }
+
+    .groupeditemspage .input1[type=range].win-vertical::-ms-track {
+        width: 80px;
+        height: auto;
+    }
+
+.input1[type=range].win-vertical:disabled::-ms-fill-lower {
+    margin-right: 0;
+    margin-top: 6px;
+}
+
+.groupeditemspage .input1[type=range].win-vertical:disabled::-ms-fill-upper {
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.groupeditemspage .input1[type=range].win-vertical:disabled:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm)::-ms-fill-lower {
+    margin-left: 0;
+}
+
+.groupeditemspage .input1[type=range].win-vertical:disabled:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm)::-ms-fill-upper {
+    margin-right: 0;
+}
+
+.groupeditemspage .input1[type=range].win-vertical::-ms-ticks-before,
+.groupeditemspage .input1[type=range].win-vertical::-ms-ticks-after {
+    width: 5px;
+    height: 100%;
+    display: none;
+}
+
+/*
+Range control colors.
+*/
+.groupeditemspage .input1[type=range], input[type=range]::-ms-track {
+    background-color: transparent;
+}
+
+    .groupeditemspage .input1[type=range]::-ms-fill-lower {
+        background: #FFFFFF;
+    }
+
+    .groupeditemspage .input1[type=range]:hover::-ms-fill-lower {
+        background: #FFFFFF;
+    }
+
+    .groupeditemspage .input1[type=range]:active::-ms-fill-lower {
+        background: #FFFFFF;
+    }
+
+    .groupeditemspage .input1[type=range]:disabled::-ms-fill-lower {
+        background-color: rgba(255, 255, 255, 0.23);
+    }
+
+.groupeditemspage .win-ui-light input[type=range]::-ms-fill-lower {
+    background-color: rgb(70, 23, 180);
+}
+
+.groupeditemspage .win-ui-light input[type=range]:hover::-ms-fill-lower {
+    background-color: rgb(95, 55, 190);
+}
+
+.groupeditemspage .win-ui-light input[type=range]:active::-ms-fill-lower {
+    background-color: rgb(114, 65, 228);
+}
+
+.groupeditemspage .win-ui-light input[type=range]:disabled::-ms-fill-lower {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.groupeditemspage .input1[type=range]::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .input1[type=range]:hover::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .input1[type=range]:active::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .input1[type=range]:disabled::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.win-ui-light input[type=range]::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .win-ui-light input[type=range]:hover::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .win-ui-light input[type=range]:active::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .win-ui-light input[type=range]:disabled::-ms-fill-upper {
+    background: #b0b1b3;
+}
+
+.groupeditemspage .input1[type=range]::-ms-thumb {
+    background: url(../../images/HubPage/SliderBtn.png) no-repeat center;
+    margin-right:15px;
+}
+
+.groupeditemspage .input1[type=range]:disabled::-ms-thumb {
+    background: #ff0000;
+}
+
+.groupeditemspage .win-ui-light input[type=range]::-ms-thumb {
+    background: #ff0000;
+}
+
+.groupeditemspage .win-ui-light input[type=range]:disabled::-ms-thumb {
+    background: #ff0000;
+}
+
+.groupeditemspage .input1[type=range]::-ms-ticks-before,
+.groupeditemspage .input1[type=range]::-ms-ticks-after {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.groupeditemspage .win-ui-light input[type=range]::-ms-ticks-before,
+.groupeditemspage .win-ui-light input[type=range]::-ms-ticks-after {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*Range input1 End *********/
+
+#TopAppDiv {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN1.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN1.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv2 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN2.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv2:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN2.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+
+#TopAppDiv3 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN3.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv3:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN3.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv4 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN4.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv4:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN4.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv5 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN5.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv5:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN5.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv6 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN6.png) no-repeat;
+    float: right;
+}
+
+    #TopAppDiv6:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN6.png) no-repeat;
+        float: right;
+        opacity: 0.5;
+    }
+
+#TopAppDiv7 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN7.png) no-repeat;
+    float: right;
+}
+
+    #TopAppDiv7:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN7.png) no-repeat;
+        float: right;
+        opacity: 0.5;
+    }
+
+
+
+
+#BottAppDiv1 {
+    width: 52px;
+    height: 68px;
+    background: url(../../images/HubPage/BtmAppBArN.png) no-repeat;
+    float: left;
+}
+
+#BottAppDiv1:active {
+        width: 52px;
+        height: 68px;
+        background: url(../../images/HubPage/BtmAppBArN.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+
+ .win-commandicon {
+    display: none;
+    margin: 0 0px; /* padding for command buttons, 2px/side for focus */
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    /* Normal sizing */
+    width: 53px;
+    height: 65px;
+    box-sizing: border-box;
+    cursor: default;
+}

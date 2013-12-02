@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>flyout</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="PostRecipePage.css" rel="stylesheet" />
+    <script src="PostRecipePage.js"></script>
+</head>
+<body>
+    <div data-win-control="WinJS.UI.SettingsFlyout" id="detailPage" aria-label="Help settings flyout" data-win-options="{settingsCommandId:'Post',width:'small'}" style="visibility: visible; background: rgba(0,0,0,0.90); width: 500px;">
+        <div class="MainPostDiv">
+            <div class="FliterTopHeadDiv">Post A Recipe</div>
+            <div class="FilterPostInnerDiv">
+                Your email ID<br />
+                <input class="FilterArea" type="text" />
+            </div>
+            <div class="FilterPostInnerDiv">
+                Recipe name<br />
+                <input class="FilterArea" type="text" />
+            </div>
+            <div class="FilterPostInnerDiv">
+                Tag name<br />
+                <input class="FilterArea" type="text" />
+            </div>
+            <div class="FilterPostInnerDiv">
+                Description<br />
+                <textarea class="FilterAreaTextBox" name="textarea"></textarea>
+            </div>
+            <div class="IngredientBanner">
+                <div class="IngredientInnerText1">Ingredient name</div>
+                <div class="IngredientInnerText2">Quantity</div>
+                <div class="IngredientInnerText3">Unit</div>
+                <div class="IngredientAreaBanner">
+                    <input class="IngredientArea1" type="text" />
+                    <input class="IngredientAreaTwo" type="text" />
+                    <select class="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <div class="IngredientImageBanner"></div>
+                </div>
+                <div class="IngredientAreaBanner">
+                    <input class="IngredientArea1" type="text" />
+                    <input class="IngredientAreaTwo" type="text" />
+                    <select class="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <div class="IngredientImageBanner"><img src="../../images/CloseBtn.png" /></div>
+                </div>
+                <div class="IngredientAreaBanner">
+                    <input class="IngredientArea1" type="text" />
+                    <input class="IngredientAreaTwo" type="text" />
+                    <select class="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <div class="IngredientImageBanner"><img src="../../images/CloseBtn.png" /></div>
+                </div>
+            </div>
+            <div class="BottBoxDiv">Add A Fleld</div>
+        </div>
+    </div>
+</body>
+</html>

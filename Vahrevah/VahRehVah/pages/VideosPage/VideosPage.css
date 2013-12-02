@@ -1,0 +1,1087 @@
+﻿.VideosPage section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+
+/*Logo Banner CSS  *****************************/
+
+.VideosPage .LogoBanner {
+    width: 1000px;
+    height: 130px;
+    margin: -15px 0px 0px 0px;
+}
+
+.VideosPage .LogoDiv {
+    width: 320px;
+    height: 130px;
+  background: url(../../images/AppLogo2.png) no-repeat;
+    float: left;
+}
+
+.VideosPage .LogoTextDiv {
+    width: 180px;
+    height: auto;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    text-transform: uppercase;
+    margin: 50px 0px 0px 10px;
+}
+
+.VideosPage .SelectDiv {
+    width: 310px;
+    height: 48px;
+    float: left;
+    border-left: #fff 1px solid;
+    margin: 79px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+.VideosPage .SelectTopDiv {
+    font-size: 16px;
+    height: 20px;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*Logo Banner CSS END *****************************/
+
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist {
+	    height: 100%;
+        position: relative;
+        -ms-grid-column: 1;
+        -ms-grid-row: 2;
+        z-index: 0;
+        overflow: hidden;
+		background-color:rgba(0, 0, 0, 0.73);
+		margin-left:120px;
+	
+}
+
+    /* This selector is used to prevent ui-dark/light.css from overwriting changes
+       to .win-surface. */
+ .VideosPage .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-bottom: 60px;
+        margin-left: 0px;
+        margin-right:20px;
+        margin-top: 0px;
+    }
+
+
+  .VideosPage .groupeditemslist.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+    .VideosPage .groupeditemslist .win-groupheader {
+        padding: 0;
+		display:none;
+		margin-top:40px;
+        margin-left:30px;
+    }
+
+    /* Use grid and top level layout for truncation */
+    .VideosPage .groupeditemslist .group-header {
+        -ms-grid-columns: minmax(0, max-content) 7px max-content;
+        -ms-grid-rows: max-content;
+        display: -ms-inline-grid;
+        line-height: 1.5;
+    }
+
+    /* Override default button styles */
+    .VideosPage .groupeditemslist .group-header, .group-header:hover, .group-header:hover:active {
+        background: transparent;
+        border: 0;
+        margin-bottom: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 1px;
+        min-height: 0;
+        padding: 0;
+    }
+
+        .VideosPage .groupeditemslist .group-header .group-title {
+            display: inline-block;
+        }
+
+        .VideosPage .groupeditemslist .group-header .group-chevron {
+            -ms-grid-column: 3;
+            display: inline-block;
+        }
+
+            .VideosPage .groupeditemslist .group-header .group-chevron::before {
+                content: "\E26B";
+                font-family: 'Segoe UI Symbol';
+            }
+
+    .VideosPage .groupeditemslist .item {
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 105px 1fr;
+        display: -ms-grid;
+        height: 150px;
+        width: 195px;
+    }
+
+        .VideosPage .groupeditemslist .item .item-image {
+            
+			-ms-grid-row:1;
+        }
+
+        .VideosPage .groupeditemslist .item .item-overlay {
+            -ms-grid-row: 2;
+            -ms-grid-rows: 1fr 21px;
+            display: -ms-grid;
+            padding: 3px 5px 2px 0px;
+			background:none;
+        }
+
+            .VideosPage .groupeditemslist .item .item-overlay .item-title {
+                -ms-grid-row: 1;
+                overflow: hidden;
+                width: 190px;
+				font-size:12px;
+				font-weight:800;
+            }
+
+            .VideosPage .groupeditemslist .item .item-overlay .RatingStar {
+                -ms-grid-row: 2;
+                width: 190px;
+            }
+			
+			
+.VideosPage .win-horizontal.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.VideosPage .win-vertical.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+    .VideosPage .groupeditemslist .item .item-overlay {
+        background: rgba(0,0,0,0.0);
+    }
+
+        .VideosPage .groupeditemslist .item .item-overlay .item-title {
+            color: rgba(255,255,255,0.87);
+        }
+
+        .VideosPage .groupeditemslist .item .item-overlay .item-subtitle {
+            color: rgba(255,255,255,0.6);
+        }
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) and (-ms-high-contrast), screen and (-ms-view-state: fullscreen-portrait) and (-ms-high-contrast), screen and (-ms-view-state: filled) and (-ms-high-contrast) {
+    .VideosPage .groupeditemslist .item .item-overlay {
+        color: WindowText;
+    }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .VideosPage section[role=main] {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+    }
+
+    .VideosPage .groupeditemslist .win-vertical.win-viewport .win-surface {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .VideosPage .groupeditemslist .win-container {
+        margin-bottom: 15px;
+        margin-left: 13px;
+        margin-right: 35px;
+        padding: 7px;
+    }
+
+    .VideosPage .groupeditemslist .item {
+        -ms-grid-columns: 60px 1fr;
+        -ms-grid-rows: 1fr;
+        display: -ms-grid;
+        height: 60px;
+        width: 272px;
+    }
+
+        .VideosPage .groupeditemslist .item .item-image {
+            -ms-grid-column: 1;
+            -ms-grid-row-span: 1;
+            height: 60px;
+            width: 60px;
+        }
+
+        .VideosPage .groupeditemslist .item .item-overlay {
+            -ms-grid-column: 2;
+            -ms-grid-row: 1;
+            -ms-grid-row-align: stretch;
+            background: transparent;
+            display: inline-block;
+            margin-left: 10px;
+            padding: 0;
+        }
+
+            .VideosPage .groupeditemslist .item .item-overlay .item-title {
+                margin-top: 4px;
+                max-height: 40px;
+                width: 202px;
+            }
+
+            .VideosPage .groupeditemslist .item .item-overlay .item-subtitle {
+                opacity: 0.6;
+                width: 202px;
+            }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .VideosPage .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-left: 25px;
+    }
+}
+
+
+
+
+
+/*
+Rating control.
+*/
+.VideosPage .win-rating {
+    display: -ms-inline-flexbox;
+    height: auto;
+    width: auto;
+    white-space: normal;
+    -ms-flex-align: stretch;
+    -ms-flex-pack: center;
+}
+
+    .VideosPage .win-rating .win-star {
+        -ms-flex: 1 1 auto;
+        height: 14px;
+        width: 14px;
+        padding: 0 0px;
+        font-family: "Segoe UI Symbol";
+        font-size: 14px;
+        overflow: hidden;
+        text-indent: 0;
+        line-height: 1;
+        cursor: default;
+        position: relative;
+        letter-spacing: 0; /* Use letter-spacing: 0 to make average star look like one glyph. */
+        -ms-touch-action: none;
+    }
+
+    .VideosPage .win-rating.win-small .win-star {
+        width: 14px;
+        height: 14px;
+        font-size: 14px;
+        padding: 0 0px;
+    }
+
+    .VideosPage .win-rating .win-star:before {
+        content: "\E082";
+    }
+
+    .VideosPage .win-rating .win-star.win-disabled {
+        cursor: default;
+        -ms-touch-action: auto;
+        color: #fff;
+    }
+
+    /*
+Rating control colors.
+*/
+    .VideosPage .win-rating .win-star.win-user.win-full,
+    .VideosPage .win-rating .win-star.win-user.win-full.win-disabled {
+    }
+
+    .VideosPage .win-rating .win-star.win-tentative.win-full {
+       color: rgb(245, 93, 28);
+    }
+
+    .VideosPage .win-rating .win-star.win-average.win-full,
+    .VideosPage .win-rating .win-star.win-average.win-full,
+    .VideosPage .win-rating .win-star.win-average.win-full.win-disabled {
+        color: rgb(255, 255, 255);
+    }
+
+    .VideosPage .win-rating .win-star.win-empty {
+        color: rgba(255, 255, 255, 0.35);
+    }
+
+.VideosPage .win-ui-light .win-rating .win-star.win-user.win-full,
+.VideosPage .win-ui-light .win-rating .win-star.win-user.win-full.win-disabled {
+    color: rgb(245, 93, 28);
+}
+
+.VideosPage .win-ui-light .win-rating .win-star.win-tentative.win-full {
+    color: rgb(245, 93, 28);
+}
+
+.VideosPage .win-ui-light .win-rating .win-star.win-average.win-full,
+.VideosPage .win-ui-light .win-rating .win-star.win-average.win-full.win-disabled {
+    color: rgb(0, 0, 0);
+}
+
+.VideosPage .win-ui-light .win-rating .win-star.win-empty {
+    color: rgba(0, 0, 0, 0.35);
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.VideosPage select {
+    min-height: 32px;
+    min-width: 80px;
+    margin: 0px 0;
+    font-size: 18pt;
+    font-weight: 400;
+    line-height: 1.3636; /* 20px when font-size is 11pt */
+    background: transparent;
+    border: none;
+    color: #000;
+}
+    /*select*/
+.VideosPage select:hover {
+        min-height: 32px;
+        min-width: 80px;
+        margin: 0px 0;
+        font-size: 18pt;
+        font-weight: 400;
+        line-height: 1.3636; /* 20px when font-size is 11pt */
+        background-color: rgba(0, 0, 0, 0.20);
+        color: #000;
+    }
+
+    .VideosPage select::-ms-value {
+        padding: 4px 8px 0 0;
+        margin: 0;
+        background: transparent;
+    }
+
+    .VideosPage select::-ms-expand {
+        border: 0;
+        padding-left: 6px;
+        padding-right: 6px;
+        /*padding-top: 20px;*/
+        background-color: #4A4645;
+        color: #fff;
+    }
+
+
+.VideosPage option {
+    color: #000;
+    font-size: 24px;
+}
+/*select End*/
+.VideosPage .win-horizontal.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.VideosPage .win-vertical.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+
+
+
+.VideosPage .AllVideosMAinDiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -ms-grid-rows: 140px 1fr;
+    -ms-grid-row-span: 2;
+    -ms-grid-row: 1;
+    display: -ms-grid;
+    -ms-grid-columns: auto 75px auto 75px auto 75px auto 75px auto 75px 1fr;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+
+
+ .VideosPage .AllVideosMAinDiv .groupeditemslist1 {
+        height: 100%;
+        background-image: url(../../images/HubPage/FuturedVideosBg.jpg);
+        position: relative;
+        -ms-grid-column:3;
+		-ms-grid-row:2;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+
+ .VideosPage .groupeditemslist1 .win-groupheader {
+        padding: 0;
+		margin-top:20px;
+        margin-left:30px;
+
+    }
+
+ .VideosPage .AllVideosMAinDiv .groupeditemslist1 .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*  margin-top: 128px;*/
+}
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 115px;
+    margin-right: 45px;
+}
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .win-listview .win-groupheader {
+    position: absolute;
+    top: 0;
+    padding: 10px 10px 10px 2px;
+    cursor: default;
+    overflow: hidden;
+    margin-left: 70px;
+    font-size: 20pt;
+    font-weight: 600;
+    border-width: 0px;
+    line-height: 1.2; /* 32px when font-size is 20pt */
+}
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 button, input[type=button] {
+    min-height: 32px; /* content (20px) + padding + border */
+    min-width: 32px;
+    padding: 4px 8px;
+    border-width: 0px;
+    border-style: solid;
+    background-clip: padding-box;
+    font-size: 18pt;
+    font-weight: 600;
+    line-height: 1.3636; /* 20px when font-size is 11pt */
+    color: black;
+}
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 button:hover:active, input[type=button]:hover:active {
+        min-height: 32px; /* content (20px) + padding + border */
+        min-width: 32px;
+        padding: 4px 8px;
+        border-width: 0px;
+        border-style: solid;
+        background-clip: padding-box;
+        font-size: 18pt;
+        font-weight: 600;
+        line-height: 1.3636; /* 20px when font-size is 11pt */
+    }
+
+
+
+    
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos {
+    -ms-grid-columns: 310px 1fr;
+    display: -ms-grid;
+    height: 125px;
+    width: 485px;
+    background-color: transparent;
+}
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .item-image {
+        -ms-grid-row: 1;
+        width: 310px;
+        Height: 123px;
+    }
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .PlayBtn {
+        -ms-grid-row: 1;
+        width: 32px;
+        Height: 32px;
+        float: right;
+        -ms-grid-row-align: end;
+        margin-bottom: 12px;
+        margin-left: 258px;
+    }
+
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .title {
+        -ms-grid-row: 2;
+        font-size: 16px;
+        color: #fff;
+        font-weight: lighter;
+        margin: 0px 0px 0px 10px;
+    }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .item-overlay {
+        -ms-grid-column: 2;
+        -ms-grid-row: 1;
+        -ms-grid-row-align: stretch;
+        background: transparent;
+        display: inline-block;
+        padding: 0;
+        float: left;
+        background-color: transparent;
+    }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .item-overlay .item-title {
+            margin-top: 4px;
+            width: 145px;
+            font-size: 16pt;
+            font-weight: bold;
+            float: left;
+            margin-left: 10px;
+            line-height: 1.2;
+            color: #232323;
+        }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .item-overlay .item-subtitle {
+            opacity: 0.6;
+            width: 145px;
+            margin-left: 10px;
+            font-size: 10pt;
+            font-weight: 300;
+            word-wrap: break-word;
+            line-height: 1.2;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+
+
+ .VideosPage .groupeditemslist1 .group-header, .group-header:hover, .group-header:hover:active {
+    background: transparent;
+    border: 0;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    min-height: 0;
+    padding: 0;
+}
+
+ .VideosPage .groupeditemslist1 .group-header .group-title {
+        display: inline-block;
+        color: black;
+        font-size: 24pt;
+        font-weight: 800;
+        line-height: 1.5;
+    }
+
+.VideosPage .groupeditemslist1 .group-header .group-chevron {
+        -ms-grid-column: 3;
+        display: inline-block;
+        visibility: hidden;
+    }
+
+ .VideosPage .groupeditemslist1 .group-header .group-chevron::before {
+            content: "\E26B";
+            font-family: 'Segoe UI Symbol';
+        }
+
+.VideosPage .groupeditemslist1 .headerRightBox {
+    width: 120px;
+    height: 25px;
+    background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+    margin: 10px 10px 0px 0px;
+}
+
+.VideosPage .groupeditemslist1 .headerRightBox:active {
+        width: 120px;
+        height: 25px;
+        background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+        float: right;
+        font-size: 18px;
+        color: #696767;
+        font-weight: bolder;
+        margin: 10px 10px 0px 0px;
+    }
+
+
+.win-horizontal.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.win-vertical.win-viewport .win-container {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist1 .FeaturedVideos .PlayBtn button, input[type=button] {
+    min-height: 32px; /* content (20px) + padding + border */
+    min-width: 32px;
+    padding: 0px 0px;
+    border-width: 0px;
+    border-style: solid;
+    background-clip: padding-box;
+    font-size: 14pt;
+    font-weight: 600;
+    line-height: 1; /* 20px when font-size is 11pt */
+    color: WHITE;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, .70);
+    border-radius: 16px;
+    font-family: 'segoe ui symbol';
+}
+
+
+
+
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 {
+    height: 100%;
+    position: relative;
+    -ms-grid-column: 7;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    z-index: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+}
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed {
+        -ms-grid-columns: 310px 1fr;
+        display: -ms-grid;
+        height: 125px;
+        width: 485px;
+        background-color: transparent;
+    }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed .item-image {
+            -ms-grid-row: 1;
+            width: 310px;
+            Height: 123px;
+ }
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed .PlayBtn {
+            -ms-grid-row: 1;
+            width: 32px;
+            Height: 32px;
+            float: right;
+            -ms-grid-row-align: end;
+            margin-bottom: 12px;
+            margin-left: 258px;
+        }
+
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed .title {
+            -ms-grid-row: 2;
+            font-size: 16px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0px 0px 0px 10px;
+        }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed .item-overlay {
+            -ms-grid-column: 2;
+            -ms-grid-row: 1;
+            -ms-grid-row-align: stretch;
+            background: transparent;
+            display: inline-block;
+            padding: 0;
+            float: left;
+            background-color: transparent;
+        }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed .item-overlay .item-title {
+                margin-top: 4px;
+                width: 145px;
+                font-size: 16pt;
+                font-weight: bold;
+                float: left;
+                margin-left: 10px;
+                line-height: 1.2;
+                color: white;
+            }
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2 .MostViewed .item-overlay .item-subtitle {
+                opacity: 0.6;
+                width: 145px;
+                margin-left: 10px;
+                font-size: 10pt;
+                font-weight: 300;
+                word-wrap: break-word;
+                line-height: 1.2;
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+.VideosPage .groupeditemslist2 .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:20px;
+}
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist2.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+.VideosPage .groupeditemslist2 .group-header, .group-header:hover, .group-header:hover:active {
+    background: transparent;
+    border: 0;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    min-height: 0;
+    padding: 0;
+}
+
+
+.VideosPage .groupeditemslist2 .win-groupheader {
+        padding: 0;
+		margin-top:0px;
+        margin-left:30px;
+    }
+
+    /* Use grid and top level layout for truncation */
+.VideosPage .groupeditemslist2 .group-header {
+        -ms-grid-columns: minmax(0, max-content) 7px max-content;
+        -ms-grid-rows: max-content;
+        display: -ms-inline-grid;
+        line-height: 1.5;
+    }
+
+.VideosPage .groupeditemslist2 .group-header .group-title {
+        display: inline-block;
+        color: white;
+        font-size: 24pt;
+        font-weight: 800;
+        line-height: 1.5;
+		height:80px;
+    }
+
+.VideosPage .groupeditemslist2 .group-header .group-chevron {
+        -ms-grid-column: 3;
+        display: inline-block;
+        visibility: hidden;
+    }
+
+.VideosPage .groupeditemslist2 .group-header .group-chevron::before {
+            content: "\E26B";
+            font-family: 'Segoe UI Symbol';
+        }
+
+.VideosPage .groupeditemslist2 .headerRightBox {
+    width: 120px;
+    height: 25px;
+    background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+    margin: 10px 10px 0px 0px;
+    display: none;
+}
+
+.VideosPage .groupeditemslist2 .headerRightBox:active {
+        width: 120px;
+        height: 25px;
+        background: url(../../images/HubPage/SvrnArrow.png) no-repeat right;
+        float: right;
+        font-size: 18px;
+        color: #696767;
+        font-weight: bolder;
+        margin: 10px 10px 0px 0px;
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+.VideosPage .AllVideosMAinDiv .groupeditemslist3 {
+	    height: 100%;
+        position: relative;
+        -ms-grid-column: 9;
+        -ms-grid-row: 2;
+        z-index: 0;
+        overflow: hidden;
+		background-color:rgba(0, 0, 0, 0.73);
+	
+}
+
+    /* This selector is used to prevent ui-dark/light.css from overwriting changes
+       to .win-surface. */
+    .VideosPage .groupeditemslist3 .win-horizontal.win-viewport .win-surface {
+        margin-bottom: 60px;
+        margin-left: 0px;
+        margin-right:20px;
+        margin-top: 0px;
+    }
+
+
+  .VideosPage .groupeditemslist3.win-rtl .win-horizontal.win-viewport .win-surface {
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+    .VideosPage .groupeditemslist3 .win-groupheader {
+        padding: 0;
+		display:none;
+		margin-top:40px;
+        margin-left:30px;
+    }
+
+    /* Use grid and top level layout for truncation */
+    .VideosPage .groupeditemslist3 .group-header {
+        -ms-grid-columns: minmax(0, max-content) 7px max-content;
+        -ms-grid-rows: max-content;
+        display: -ms-inline-grid;
+        line-height: 1.5;
+    }
+
+    /* Override default button styles */
+    .VideosPage .groupeditemslist3 .group-header, .group-header:hover, .group-header:hover:active {
+        background: transparent;
+        border: 0;
+        margin-bottom: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 1px;
+        min-height: 0;
+        padding: 0;
+    }
+
+        .VideosPage .groupeditemslist3 .group-header .group-title {
+            display: inline-block;
+        }
+
+        .VideosPage .groupeditemslist3 .group-header .group-chevron {
+            -ms-grid-column: 3;
+            display: inline-block;
+        }
+
+            .VideosPage .groupeditemslist3 .group-header .group-chevron::before {
+                content: "\E26B";
+                font-family: 'Segoe UI Symbol';
+            }
+
+    .VideosPage .groupeditemslist3 .item {
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 105px 1fr;
+        display: -ms-grid;
+        height: 150px;
+        width: 195px;
+    }
+
+        .VideosPage .groupeditemslist3 .item .item-image {
+            
+			-ms-grid-row:1;
+        }
+
+        .VideosPage .groupeditemslist3 .item .item-overlay {
+            -ms-grid-row: 2;
+            -ms-grid-rows: 1fr 21px;
+            display: -ms-grid;
+            padding: 3px 5px 2px 0px;
+			background:none;
+        }
+
+            .VideosPage .groupeditemslist3 .item .item-overlay .item-title {
+                -ms-grid-row: 1;
+                overflow: hidden;
+                width: 190px;
+				font-size:12px;
+				font-weight:800;
+				color:white;
+            }
+
+            .VideosPage .groupeditemslist3 .item .item-overlay .RatingStar {
+                -ms-grid-row: 2;
+                width: 190px;
+            }
+			
+			
+			
+			
+.VideosPage .AllVideosMAinDiv .Adds{
+	-ms-grid-row:2;
+	-ms-grid-column:5;
+	display:-ms-grid;
+	width:100%;
+	height:100%;
+	-ms-grid-rows: 246px 45px 246px 1fr;
+	}
+	
+	
+.VideosPage .AllVideosMAinDiv .Adds .AddOne{
+	-ms-grid-row:1;
+	}
+	
+	
+	
+.VideosPage .AllVideosMAinDiv .Adds .AddTwo{
+	-ms-grid-row:3;
+	}
+
+
+
+
+#TopAppDiv {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN1.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN1.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv2 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN2.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv2:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN2.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+
+#TopAppDiv3 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN3.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv3:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN3.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv4 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN4.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv4:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN4.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv5 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN5.png) no-repeat;
+    float: left;
+}
+
+    #TopAppDiv5:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN5.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+#TopAppDiv6 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN6.png) no-repeat;
+    float: right;
+}
+
+    #TopAppDiv6:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN6.png) no-repeat;
+        float: right;
+        opacity: 0.5;
+    }
+
+#TopAppDiv7 {
+    width: 92px;
+    height: 93px;
+    background: url(../../images/TopAppBarN7.png) no-repeat;
+    float: right;
+}
+
+    #TopAppDiv7:active {
+        width: 92px;
+        height: 93px;
+        background: url(../../images/TopAppBarN7.png) no-repeat;
+        float: right;
+        opacity: 0.5;
+    }
+
+
+
+
+#BottAppDiv1 {
+    width: 52px;
+    height: 68px;
+    background: url(../../images/HubPage/BtmAppBArN.png) no-repeat;
+    float: left;
+}
+
+#BottAppDiv1:active {
+        width: 52px;
+        height: 68px;
+        background: url(../../images/HubPage/BtmAppBArN.png) no-repeat;
+        float: left;
+        opacity: 0.5;
+    }
+
+
+ .win-commandicon {
+    display: none;
+    margin: 0 0px; /* padding for command buttons, 2px/side for focus */
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    /* Normal sizing */
+    width: 53px;
+    height: 65px;
+    box-sizing: border-box;
+    cursor: default;
+}

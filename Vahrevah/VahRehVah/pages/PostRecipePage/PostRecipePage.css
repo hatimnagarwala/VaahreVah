@@ -1,0 +1,231 @@
+﻿.PostRecipePage p {
+    margin-left: 120px;
+}
+
+.MainPostDiv {
+    width: 500px;
+    height: 100%;
+    float: left;
+}
+
+    .MainPostDiv .FliterTopHeadDiv {
+        width: 450px;
+        font-size: 46px;
+        color: #fff;
+        font-weight: bold;
+        margin: 35px 0px 20px 20px;
+        float: left;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    .MainPostDiv .FilterPostInnerDiv {
+        width: 450px;
+        height: auto;
+        font-size: 18px;
+        color: #fff;
+        font-weight: lighter;
+        margin: 0px 0px 12px 20px;
+        float: left;
+    }
+
+    .MainPostDiv .FilterArea {
+        width: 430px;
+        height: 30px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .FilterAreaTextBox {
+        width: 405px;
+        height: 100px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientBanner {
+        width: 450px;
+        height: auto;
+        margin: 0px 0px 0px 20px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientInnerText1 {
+        width: 230px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientInnerText2 {
+        width: 88px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientInnerText3 {
+        width: 50px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientAreaBanner {
+        width: 450px;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientArea1 {
+        width: 220px;
+        height: 32px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 5px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientAreaTwo {
+        width: 75px;
+        height: 32px;
+        background: #4B4B49;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        margin: 5px 5px 0px 0px;
+        float: left;
+    }
+
+    .MainPostDiv .IngredientImageBanner {
+        width: 32px;
+        height: 32px;
+        margin: 5px 0px 0px 0px;
+        float: left;
+    }
+
+
+
+    .MainPostDiv .BottBoxDiv {
+        width: 100px;
+        height: 36px;
+        float: left;
+        background: #51853D;
+        margin: 0px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: bolder;
+        color: #FFF;
+        text-align: center;
+        margin: 5px 0px 0px 20px;
+        text-transform: uppercase;
+    }
+
+        .MainPostDiv .BottBoxDiv:active {
+            width: 100px;
+            height: 36px;
+            float: left;
+            background: #BFFCA3;
+            margin: 0px 0px 0px 0px;
+            font-size: 14px;
+            line-height: 32px;
+            font-weight: bolder;
+            color: #080000;
+            text-align: center;
+            margin: 5px 0px 0px 20px;
+            text-transform: uppercase;
+        }
+
+
+
+    /*
+Select control.
+*/
+    .MainPostDiv .select1 {
+        min-height: 20px;
+        width: 40px;
+        border-width: 2px;
+        border-style: solid;
+        margin: 0px 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3636; /* 20px when font-size is 11pt */
+        background-color: #4B4B49;
+        color: #fff;
+        float: left;
+        margin: 4px 5px 10px 0px;
+    }
+
+        .MainPostDiv .select1:hover {
+            min-height: 20px;
+            width: 40px;
+            border-width: 2px;
+            border-style: solid;
+            margin: 0px 0;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.3636; /* 20px when font-size is 11pt */
+            background-color: #4B4B49;
+            color: #fff;
+            float: left;
+            margin: 4px 5px 10px 0px;
+        }
+
+        .MainPostDiv .select1 select::-ms-value {
+            padding: 4px 8px;
+            margin: 0;
+        }
+
+        .MainPostDiv .select1 select::-ms-expand {
+            border: 0;
+            padding-left: 6px;
+            padding-right: 6px;
+            background-color: transparent;
+        }
+
+        .MainPostDiv .select1 option {
+            font-size: 14px;
+            color: #fff;
+        }
+
+            /*
+    Select option high contrast colors.
+    */
+            .MainPostDiv .select1 option:checked, select:focus::-ms-value {
+                color: HighlightText;
+                background-color: #4B4B49;
+            }
+
+        .MainPostDiv .select1 select:active:not(:disabled)::-ms-value, select:active:not(:disabled)::-ms-expand,
+        option:hover:active, option:checked:hover:active {
+            color: ButtonFace;
+            background-color: #4B4B49;
+        }
+
+        .MainPostDiv .select1 option:checked:disabled, option:checked:disabled:active,
+        optgroup:disabled option:checked, optgroup:disabled option:checked:active,
+        select:disabled option:checked, select:disabled option:checked:active,
+        select:disabled:focus::-ms-value {
+            color: ButtonFace;
+            background-color: #4B4B49;
+        }

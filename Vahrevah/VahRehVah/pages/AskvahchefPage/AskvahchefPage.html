@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>flyout</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="AskvahchefPage.css" rel="stylesheet" />
+    <script src="AskvahchefPage.js"></script>
+</head>
+<body>
+    <div data-win-control="WinJS.UI.SettingsFlyout" id="detailPage" aria-label="Help settings flyout" data-win-options="{settingsCommandId:'Askvahchef',width:'small'}" style="visibility: visible; background: rgba(0,0,0,0.90); width: 500px;">
+        <div class="MainAskvahchef">
+            <div class="FliterTopHeadDiv">Ask Vah Chef</div>
+            <div class="FilterPostInnerDiv">
+                Your name<br />
+                <input class="FilterArea" type="text" />
+            </div>
+            <div class="FilterPostInnerDiv">
+                Your email ID<br />
+                <input class="FilterArea" type="text" />
+            </div>
+            <div class="FilterPostInnerDiv">
+                Your query<br />
+                <textarea class="FilterAreaTextBox" name="textarea"></textarea>
+            </div>
+            <div class="BottBoxCancelDiv">Cancel</div>
+            <div class="BottBoxDiv">Submit</div>
+        </div>
+    </div>
+</body>
+</html>
